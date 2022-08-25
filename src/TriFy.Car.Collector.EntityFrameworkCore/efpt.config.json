@@ -1,0 +1,36 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "CarsPricerDbContext",
+   "ContextNamespace": "TriFy.Car.Collector.EntityFrameworkCore",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": "TriFy.Car.Collector.Vehicles",
+   "OutputContextPath": ".\\EntityFrameworkCore",
+   "OutputPath": "..\\TriFy.Car.Collector.Domain\\Vehicles",
+   "ProjectRootNamespace": "TriFy.Car.Collector",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[LisencePlates]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "localhost.CarPricerDb",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

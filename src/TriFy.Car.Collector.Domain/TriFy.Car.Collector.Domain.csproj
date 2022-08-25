@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\TriFy.Car.Collector.Domain.Shared\TriFy.Car.Collector.Domain.Shared.csproj" />
+    <ProjectReference Include="..\TriFy.Car.Collector.IO\TriFy.Car.Collector.IO.csproj" />
+    <ProjectReference Include="..\TriFy.Car.Collector.OCR.PDF\TriFy.Car.Collector.OCR.PDF.csproj" />
+    <ProjectReference Include="..\TriFy.Car.Collector.Ocr\TriFy.Car.Collector.OCR.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Emailing" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.Settings" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="4.3.3" />
+  </ItemGroup>
+
+</Project>

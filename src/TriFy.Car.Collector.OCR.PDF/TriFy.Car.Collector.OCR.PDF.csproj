@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+  
+  <ItemGroup>
+    <PackageReference Include="itext7" Version="7.1.16" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\TriFy.Car.Collector.Ocr\TriFy.Car.Collector.OCR.csproj" />
+  </ItemGroup>
+
+</Project>

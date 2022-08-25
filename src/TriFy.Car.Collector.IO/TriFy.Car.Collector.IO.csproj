@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Core" Version="4.3.3" />
+  </ItemGroup>
+
+</Project>
