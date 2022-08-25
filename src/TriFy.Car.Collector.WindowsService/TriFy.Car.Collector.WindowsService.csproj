@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.BackgroundWorkers" Version="4.3.3" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\TriFy.Car.Collector.Application.Contracts\TriFy.Car.Collector.Application.Contracts.csproj" />
+    <ProjectReference Include="..\TriFy.Car.Collector.Domain.Shared\TriFy.Car.Collector.Domain.Shared.csproj" />
+    <ProjectReference Include="..\TriFy.Car.Collector.IO\TriFy.Car.Collector.IO.csproj" />
+  </ItemGroup>
+
+</Project>

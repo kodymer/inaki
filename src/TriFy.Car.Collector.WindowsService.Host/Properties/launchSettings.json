@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TriFy.Car.Collector.WindowsService.Host": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

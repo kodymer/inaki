@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <ItemGroup>
+    <Content Remove="C:\Users\kleondra\.nuget\packages\itext7.pdf2data\2.1.12\Build\x64\pdfium.dll" />
+    <Content Remove="C:\Users\kleondra\.nuget\packages\itext7.pdf2data\2.1.12\Build\x86\pdfium.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TriFy.Car.Collector.Domain\TriFy.Car.Collector.Domain.csproj" />
+    <ProjectReference Include="..\TriFy.Car.Collector.Application.Contracts\TriFy.Car.Collector.Application.Contracts.csproj" />
+    <ProjectReference Include="..\TriFy.Car.Collector.EntityFrameworkCore\TriFy.Car.Collector.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="4.3.3" />
+  </ItemGroup>
+
+</Project>
